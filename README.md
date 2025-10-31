@@ -55,10 +55,13 @@ Ensure you have **Python 3.8+** installed on your system.
 1. Clone the Repository
 
 git clone https://github.com/Hida-Fathima/sentiment-project
+
+
 cd sentiment-project
 
 
 2. Install Dependencies
+   
 The project uses the following libraries. Install them using the requirements.txt file:
 
 
@@ -66,6 +69,7 @@ pip install -r requirements.txt
 
 
 3. Run the Preprocessing & Model Training Script
+   
 This script loads the raw data, performs cleaning, trains the Custom ML Pipeline on 225 rows (testing on 25), saves the final model (I have uploaded the models in models folder for ref), and creates the processed dataset (custom_ml_analysis_dataset.csv, I have uploaded in the data folder for ref) for the dashboard.
 
 python preprocess_and_train_ml.py
@@ -80,6 +84,8 @@ This will output:
 ✅ models/custom_ml_metrics.json (The model's performance report)
 
 4. Launch the Streamlit Dashboard
+
+   
 Start the interactive web application:
 
 streamlit run app.py
