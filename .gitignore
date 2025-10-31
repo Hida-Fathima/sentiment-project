@@ -1,0 +1,13 @@
+# ------------------------------------
+# Essential Python/Virtual Environment Exclusions
+# ------------------------------------
+__pycache__/  # Excludes temporary Python cache files
+*.pyc         # Excludes individual compiled Python files
+.venv/        # Excludes virtual environment folder (if you use it)
+env/
+
+# ------------------------------------
+# IDE and OS Exclusions
+# ------------------------------------
+Thumbs.db     # Windows system file
+.vscode/      # Visual Studio Code settings (if you use it)
